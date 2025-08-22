@@ -6,14 +6,14 @@
 - Mean NLL: 268800.794
 
 ## Improved BNode Results (with fixes)
-- 50% Coverage: 0.527
-- 90% Coverage: 0.835
-- Mean NLL: 4403.698
+- 50% Coverage: 0.541
+- 90% Coverage: 0.849
+- Mean NLL: 4088.593
 
 ## Improvements
-- 50% Coverage: 10446.9% improvement
-- 90% Coverage: 16595.7% improvement
-- Mean NLL: 98.4% improvement
+- 50% Coverage: 10722.9% improvement
+- 90% Coverage: 16885.6% improvement
+- Mean NLL: 98.5% improvement
 
 ## Key Fixes Applied
 1. Student-t likelihood (3 degrees of freedom)
@@ -24,6 +24,6 @@
 ## Evaluation
 - **Target 50% Coverage**: 0.5
 - **Target 90% Coverage**: 0.9
-- **Current 50% Coverage**: 0.527
-- **Current 90% Coverage**: 0.835
+- **Current 50% Coverage**: 0.541
+- **Current 90% Coverage**: 0.849
 - **Status**: ✅ Good calibration
