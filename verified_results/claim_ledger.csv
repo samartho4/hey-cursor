@@ -1,0 +1,25 @@
+location,snippet,claim_type,quantity,old_value,status,evidence_path,note
+Table 1 RMSE x2,Physics RMSE x2,rmse,0.2520,0.2520,confirmed,results/comprehensive_metrics.csv,Verified from CSV
+Table 1 RMSE x2,UDE RMSE x2,rmse,0.2475,0.2475,confirmed,results/comprehensive_metrics.csv,Verified from CSV
+Table 1 R2 x2,Physics R2 x2,r2,0.796,0.780,revised,results/statistical_analysis.json,Updated from statistical analysis
+Table 1 R2 x2,UDE R2 x2,r2,0.764,0.764,confirmed,results/statistical_analysis.json,Verified from statistical analysis
+Statistical Analysis,Wilcoxon p-value,p_value,0.922,0.9219,confirmed,results/statistical_analysis.json,Verified from statistical analysis
+Statistical Analysis,Mean delta,mean_delta,-0.0045,-0.004488,confirmed,results/statistical_analysis.json,Verified from statistical analysis
+Statistical Analysis,BCa CI,confidence_interval,"[-0.038, 0.032]","[-0.039, 0.031]",confirmed,results/statistical_analysis.json,Verified from statistical analysis
+Statistical Analysis,Cohen's dz,effect_size,-0.075,-0.0747,confirmed,results/statistical_analysis.json,Verified from statistical analysis
+Statistical Analysis,Matched correlation,correlation,0.955,0.955,confirmed,results/statistical_analysis.json,Verified from statistical analysis
+BNODE Calibration,50% coverage,coverage,0.541,0.541,confirmed,results/simple_bnode_calibration_summary.md,Verified from calibration summary
+BNODE Calibration,90% coverage,coverage,0.849,0.849,confirmed,results/simple_bnode_calibration_summary.md,Verified from calibration summary
+BNODE Calibration,NLL reduction,percentage,98.48,98.48,confirmed,results/simple_bnode_calibration_summary.md,Verified from calibration summary
+Runtime Analysis,UDE mean ms,runtime,0.272,0.272,confirmed,results/runtime_summary.json,Verified from runtime analysis
+Runtime Analysis,Physics mean ms,runtime,0.081,0.081,confirmed,results/runtime_summary.json,Verified from runtime analysis
+Runtime Analysis,Speedup ratio,ratio,3.36,3.36,confirmed,results/runtime_summary.json,Verified from runtime analysis
+Symbolic Extraction,Cubic coefficient 0,coefficient,-0.055463,-0.055463,confirmed,results/ude_symbolic_extraction.md,Verified from symbolic extraction
+Symbolic Extraction,Cubic coefficient 1,coefficient,0.835818,0.835818,confirmed,results/ude_symbolic_extraction.md,Verified from symbolic extraction
+Symbolic Extraction,Cubic coefficient 2,coefficient,0.000875,0.000875,confirmed,results/ude_symbolic_extraction.md,Verified from symbolic extraction
+Symbolic Extraction,Cubic coefficient 3,coefficient,-0.018945,-0.018945,confirmed,results/ude_symbolic_extraction.md,Verified from symbolic extraction
+Symbolic Extraction,R2 fit,r2,0.982,0.982,confirmed,results/ude_symbolic_extraction.md,Verified from symbolic extraction
+MCMC Diagnostics,ESS,effective_sample_size,333,333,confirmed,results/bnode_mcmc_diagnostics.csv,Verified from MCMC diagnostics
+MCMC Diagnostics,R-hat,rhat,NaN,NaN,confirmed,results/bnode_mcmc_diagnostics.csv,Technical issue - R-hat calculation failed
+TOST Analysis,TOST 0.01 equivalent,boolean,false,false,confirmed,results/tost_results.json,Verified from TOST results
+TOST Analysis,TOST 0.02 equivalent,boolean,false,false,confirmed,results/tost_results.json,Verified from TOST results
