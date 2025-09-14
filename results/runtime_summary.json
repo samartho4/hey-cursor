@@ -1,0 +1,8 @@
+{
+  "ude_mean_ms": 0.27198601014999996,
+  "ude_std_ms": 0.04801903198924944,
+  "physics_mean_ms": 0.08103819495999996,
+  "physics_std_ms": 0.014357729108837753,
+  "speedup_ratio": 0.2979498648305753,
+  "ude_faster": false
+}

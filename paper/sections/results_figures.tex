@@ -1,0 +1,47 @@
+% Results Figures (auto-generated; paste under Results)
+% These figures are referenced in the main Results section
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/reliability_test.png}
+  \caption{BNODE reliability on test: predicted vs empirical coverage. 50\% is \emph{conservative}, 90\% is \emph{conservative}.}
+  \label{fig:reliability-test}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/ppc_test.png}
+  \caption{Posterior predictive checks: simulated vs observed trajectories envelope without systematic bias.}
+  \label{fig:ppc-test}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/runtime_box.png}
+  \caption{Per-trajectory inference times (after warm-up): UDE vs Physics across scenarios. Physics is 3.36$\times$ faster than UDE.}
+  \label{fig:runtime}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/robustness_noise.png}
+  \caption{Robustness to input noise $\sigma\in\{0.01,0.05,0.1\}$: accuracy degradation and predictive-interval widening.}
+  \label{fig:robustness-noise}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/extrapolation.png}
+  \caption{Extrapolation (+20\% parameter shift): graceful degradation (UDE) and calibrated uncertainty increase (BNODE).}
+  \label{fig:extrapolation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\linewidth]{figures/residual_cubic_fit.png}
+  \caption{Symbolic residual fit $f_\theta(P_{\text{gen}})$ (cubic) with 95\% CIs on coefficients; saturation visible at high $P_{\text{gen}}$.}
+  \label{fig:symbolic-residual}
+\end{figure}
+
+% Include line for main.tex:
+% \input{paper/sections/results_figures}
